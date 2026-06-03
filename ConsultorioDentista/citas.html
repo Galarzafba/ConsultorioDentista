@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Citas - Consultorio Dentista Galarza</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #f0f4f8; color: #333; }
+        header { background-color: #006064; color: white; padding: 20px; text-align: center; }
+        nav { background-color: #00838f; padding: 10px; text-align: center; }
+        nav ul { list-style: none; padding: 0; margin: 0; }
+        nav ul li { display: inline; margin: 0 15px; }
+        nav ul li a { color: white; text-decoration: none; font-weight: bold; }
+        nav ul li a:hover { color: #ffeb3b; }
+        
+        .container { padding: 30px; max-width: 1100px; margin: 20px auto; background-color: white; border-radius: 12px; box-shadow: 0px 4px 10px rgba(0,0,0,0.1); }
+        h2 { color: #006064; border-bottom: 2px solid #00838f; padding-bottom: 10px; margin-top: 0; }
+        
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; border: 1px solid #ddd; text-align: left; }
+        th { background-color: #006064; color: white; }
+        tr:nth-child(even) { background-color: #e0f2f1; }
+        
+        .completada { color: #2e7d32; font-weight: bold; background-color: #c8e6c9; padding: 4px 8px; border-radius: 5px; }
+        .cancelada { color: #c62828; font-weight: bold; background-color: #ffcdd2; padding: 4px 8px; border-radius: 5px; }
+        
+        footer { background-color: #263238; color: white; padding: 20px; text-align: center; margin-top: 40px; }
+    </style>
+</head>
+<body>
+    <header><h1>📅 Consultorio Dentista Galarza</h1></header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pacientes.html">Pacientes</a></li>
+            <li><a href="empleados.html">Personal</a></li>
+            <li><a href="tratamientos.html">Tratamientos</a></li>
+            <li><a href="citas.html">Citas</a></li>
+            <li><a href="pagos.html">Pagos</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Agenda de Citas y Seguimiento Médico</h2>
+        <table>
+            <thead>
+                <tr><th>ID Cita</th><th>Paciente</th><th>Médico Asignado</th><th>Fecha y Hora</th><th>Motivo</th><th>Estado</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Cit-101</td><td>Brian Galarza</td><td>Dra. Laura Rocha</td><td>13/09/2025 9:00am</td><td>Brackets</td><td><span class="completada">Completada</span></td></tr>
+                <tr><td>Cit-102</td><td>Ana Lopez</td><td>Dr. Luis Galarza</td><td>13/09/2025 10:00am</td><td>Limpieza</td><td><span class="completada">Completada</span></td></tr>
+                <tr><td>Cit-103</td><td>Ian Alcantara</td><td>Dra. Monica Pizarro</td><td>13/09/2025 12:00pm</td><td>Blanqueamiento</td><td><span class="cancelada">Cancelada</span></td></tr>
+                <tr><td>Cit-104</td><td>Veronica Flores</td><td>Dra. Laura Rocha</td><td>14/09/2025 9:00am</td><td>Limpieza</td><td><span class="completada">Completada</span></td></tr>
+                <tr><td>Cit-105</td><td>Rafa Alvarado</td><td>Dr. Luis Galarza</td><td>14/09/2025 10:00am</td><td>Blanqueamiento</td><td><span class="completada">Completada</span></td></tr>
+                <tr><td>Cit-106</td><td>Sofia Molino</td><td>Dra. Monica Pizarro</td><td>14/09/2025 12:00pm</td><td>Brackets</td><td><span class="completada">Completada</span></td></tr>
+                <tr><td>Cit-107</td><td>Alfredo Valenzuela</td><td>Dra. Laura Rocha</td><td>15/09/2025 9:00am</td><td>Brackets</td><td><span class="cancelada">Cancelada</span></td></tr>
+                <tr><td>Cit-108</td><td>Diego Rage</td><td>Dr. Luis Galarza</td><td>15/09/2025 10:00am</td><td>Blanqueamiento</td><td><span class="completada">Completada</span></td></tr>
+                <tr><td>Cit-109</td><td>Antonio Flores</td><td>Dra. Monica Pizarro</td><td>15/09/2025 12:00pm</td><td>Limpieza</td><td><span class="completada">Completada</span></td></tr>
+                <tr><td>Cit-110</td><td>Juan Batres</td><td>Dra. Laura Rocha</td><td>16/09/2025 9:00am</td><td>Extracción</td><td><span class="completada">Completada</span></td></tr>
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        <p><strong>Desarrollado por:</strong> Galarza Flores Brian Antonio</p>
+        <p>No. Control: 0839 | Especialidad: Programacion</p>
+    </footer>
+</body>
+</html>
